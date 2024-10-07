@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-const PORT = 3000;
+const PORT = 80;
 
 // Static 파일을 제공 (HTML 파일 및 관련 자원)
 app.use(express.static(path.join(__dirname, 'dist')));
